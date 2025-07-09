@@ -4,6 +4,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">	
   <title>Movie Data Charts</title>
   <style>
+    .container {
+      width: 80%; /* Adjust as needed */
+      margin: 0 auto; /* Centers the container */
+     }
     .chart-group-container {
       display: flex;
       gap: 20px; /* Adjust spacing as needed */
@@ -22,46 +26,48 @@
 </head>	
 
 <body>
-<h1 style="text-align: center; padding: 10px;">Movie Data Charts</h1>
-<h2>Bar Charts</h2>
-<div class="chart-group-container">   
-   <div> 
-     <img src="images/High_Rating_ByDecade.png" alt="Image" style="display: inline;">
-     <h3>Notes:</h3>
-     <p>52% increase in high quality movies from the 1990s to the 2000s</p>
-     <p>Only a 13% increase in high quality movies from the 2000s to the 2010s </p>
-   </div>
-   <div>
-     <img src="images/HighRating_DecadeGenre.png" alt="Image" style="display: inline;">
-     <h3>Notes</h3>
-     <p>144% increase in high quality action movies from the 1990s to the 2000s</p>
-     <p>Comedy is the only genre that did its best in the 1990s</p>
-   </div>
-</div>
+<div class="container">
 
-<h2>Pie Charts</h2>
-<div class="pie-chart-group-container">   
-   <div> 
-     <img src="images/1990s_Pie_Chart.png" alt="Image" style="display: inline;">
-     <h3>Notes:</h3>
-     <p>The pie chart shows 18% of high quality movies from the<br>
+  <h1 style="text-align: center; padding: 10px;">Movie Data Charts</h1>
+  <h2>Bar Charts</h2>
+  <div class="chart-group-container">   
+     <div> 
+       <img src="images/High_Rating_ByDecade.png" alt="Image" style="display: inline;">
+       <h3>Notes:</h3>
+       <p>52% increase in the number of high quality movies from the 1990s to the 2000s</p>
+       <p>Only a 13% increase in the number of high quality movies from the 2000s to the 2010s </p>
+     </div>
+     <div>
+       <img src="images/HighRating_DecadeGenre.png" alt="Image" style="display: inline;">
+       <h3>Notes</h3>
+       <p>144% increase in the number of high quality ACTION movies from the 1990s to the 2000s</p>
+       <p>Comedy is the only genre with a decrease in its number of high quality movies.</p>
+     </div>
+  </div>
+
+  <h2>Pie Charts</h2>
+  <div class="pie-chart-group-container">   
+     <div> 
+       <img src="images/1990s_Pie_Chart.png" alt="Image" style="display: inline;">
+       <h3>Notes:</h3>
+       <p>The pie chart shows 18% of high quality movies from the<br>
         1990s are action, 10% are adventure, 30% are comedy, and<br> 
         42% are drama.</p>
-   </div>
-   <div>
-     <img src="images/2000s_Pie_Chart.png" alt="Image" style="display: inline;">
-     <h3>Notes:</h3>
-     <p>The distribution changes significantly from the 90s to the<br> 
+     </div>
+     <div>
+       <img src="images/2000s_Pie_Chart.png" alt="Image" style="display: inline;">
+       <h3>Notes:</h3>
+       <p>The distribution changes significantly from the 90s to the<br> 
         2000s. Action jumps from 18% of the total to 29%.<br>
         Comedy falls from 30% to 17%.</p>
-   </div>
-   <div>
-     <img src="images/2010s_Pie_Chart.png" alt="Image" style="display: inline;">
-     <h3>Notes:</h3>
-     <p>The distribution for the 2010s is quite similar to the 2000s.<br> 
-   </div>  
+     </div>
+     <div>
+       <img src="images/2010s_Pie_Chart.png" alt="Image" style="display: inline;">
+       <h3>Notes:</h3>
+       <p>The distribution for the 2010s is quite similar to the 2000s.<br> 
+     </div>  
+  </div>
+
 </div>
-
-
 </body>  
 </html>
