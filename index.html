@@ -17,12 +17,20 @@
     .text-container {
         width: 90%;}
      }    
-        .text-container-two {
+    .text-container-two {
     width: 100%;
-    max-width: 900px; /* Adjust this value as needed */
+    max-width: 850px; /* Adjust this value as needed */
      }
     @media (max-width: 768px) {
     .text-container-two {
+        width: 90%;}
+     }    
+    .text-container-three {
+    width: 100%;
+    max-width: 850px; /* Adjust this value as needed */
+     }
+    @media (max-width: 768px) {
+    .text-container-three {
         width: 90%;}
      }    
     .container {
@@ -102,7 +110,7 @@
 
   <h3>The Number of Movies Released</h3>
   <div class="text-container-two">
-    <p>IMDb estimates there were 15,465 movies released between 1990 and 1999 compared to 49,916 movies 
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;IMDb estimates there were 15,465 movies released between 1990 and 1999 compared to 49,916 movies 
     released between 2010 and 2019. The increase in the number of movies released is significantly more
     than the increase in the number of highly rated movies, which suggests that people have gotten worse
     at making movies, not better. However, this is also an unfair assessment because a substantial
@@ -112,7 +120,8 @@
     each decade, but it's difficult to quantify the increase with limited access to the data.</p>
   </div>
   <h3>Shifting Market Demographics and the Rise of the Superhero Movie</h3>
-  <p>Our bar chart illustrates a big jump in the number of highly rated action movies released, and a notable<br>
+  <div class="text-container-three">
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;Our bar chart illustrates a big jump in the number of highly rated action movies released, and a notable<br>
      drop in the number of highly rated comedy movies released. Both of these occurrences can be explained<br>
      by the movie industry's shifting market demographics. The international market has grown significantly for<br>
      the major film studios, and it's more profitable to produce films that appeal to a wider audience. Hence,<br>
@@ -122,7 +131,7 @@
      the comedy genre has suffered due to the growth of the international market. Everyone loves to laugh, but<br>
      there are cultural differences in humor, and it's easy for things to get lost in translation. Therefore,<br>
      less comedies are being made resulting in a decrease in the number of highly rated comedies.</p>
-  
+  </div>  
 </div>
 </body>  
 </html>
